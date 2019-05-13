@@ -11,14 +11,14 @@
  * subject to an additional IP rights grant found at
  * http://polymer.github.io/PATENTS.txt
  */
-import {TemplateResult} from 'lit-html';
-import {render} from 'lit-html/lib/shady-render.js';
+import {TemplateResult} from 'lit-html/lit-html';
+import {render} from 'lit-html/lib/shady-render';
 
 import {PropertyValues, UpdatingElement} from './lib/updating-element.js';
 
 export * from './lib/updating-element.js';
 export * from './lib/decorators.js';
-export {html, svg, TemplateResult, SVGTemplateResult} from 'lit-html/lit-html.js';
+export {html, svg, TemplateResult, SVGTemplateResult} from 'lit-html/lit-html';
 import {supportsAdoptingStyleSheets, CSSResult} from './lib/css-tag.js';
 export * from './lib/css-tag.js';
 
